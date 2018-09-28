@@ -1,5 +1,10 @@
-public class App {
+class App {
     public static void main(String[] args) {
-        System.out.println("Working Project");
+//             Adding Input-Class.
+
+            Input userInput = new Input();
+            String[] input = {"hello"};
+            userInput.GetUserInput(input);
+
     }
 }
