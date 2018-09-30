@@ -26,6 +26,10 @@ Simply follow the instructions to have _sdkman_ installed and install java:
 sdk install java
 ```
 
+2. [Gradle](https://gradle.org/)
+
+
+
 
 # **Setup/Installation.**
 
