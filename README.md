@@ -10,3 +10,5 @@ Implement a Caesar cipher, both encoding, and decoding. The key is an integer fr
 
 ## Author
 
+Collins Kariuki
+
