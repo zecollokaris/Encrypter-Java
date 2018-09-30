@@ -28,7 +28,11 @@ sdk install java
 
 2. [Gradle](https://gradle.org/)
 
+Gradle is used as the build tool and can be installed with sdkman:
 
+```bash
+sdk install gradle
+```
 
 
 # **Setup/Installation.**
