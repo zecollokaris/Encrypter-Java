@@ -41,7 +41,7 @@ sdk install gradle
 
 1. You will need Internet connection.
 
-2. You need to get into the Encrypter Repository
+2. You need to get into the Encrypter Repository.
 
 Link:-> ```https://github.com/zecollokaris/Encrypter-Java```
 
