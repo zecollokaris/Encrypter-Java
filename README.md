@@ -16,7 +16,7 @@ Collins Kariuki
 
 A couple of things to get you started:
 
-1. 1. Ensure you have [Java](https://java.com/en/download/) installed
+1. Ensure you have [Java](https://java.com/en/download/) installed
 
 A simple way to install Java is using [sdkman](https://sdkman.io/).
 
@@ -64,4 +64,4 @@ gradle run
 
 - **[Java](https://java.com/en/download/) - source language.**
 
-- **[Gradle](https://gradle.org/)for dependency management and running tasks.**
+- **[Gradle](https://gradle.org/) for dependency management and running tasks.**
