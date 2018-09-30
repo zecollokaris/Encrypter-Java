@@ -37,7 +37,11 @@ sdk install gradle
 
 # **Setup/Installation.**
 
+**{follow the below instructions for set up.}**
 
+1. You will need Internet connection.
+
+2.
 
 ## Technologies Used
 
