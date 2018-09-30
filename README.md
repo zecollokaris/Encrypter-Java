@@ -38,7 +38,9 @@ sdk install gradle
 # **Setup/Installation.**
 
 
+
 ## Technologies Used
 
 - **[Java](https://java.com/en/download/) - source language.**
+
 - **[Gradle](https://gradle.org/)for dependency management and running tasks.**
