@@ -12,10 +12,14 @@ Implement: both encoding, and decoding. The key is an integer from 1 to 25. This
 
 Collins Kariuki
 
+## PRE-REQUISITES.
+
+
+
+# **Setup/Installation.**
+
+
 ## Technologies Used
 
 - **Java.**
 - **Gradle for dependency management and running tasks.**
-
-# **Setup/Installation.**
-
