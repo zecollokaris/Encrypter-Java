@@ -35,7 +35,7 @@ sdk install gradle
 ```
 
 
-# **SETUP/INSTALLATION.**
+# **SETUP/INSTALLATION!**
 
 **{follow the below instructions for set up.}**
 
@@ -43,10 +43,7 @@ sdk install gradle
 
 2. You need to get into the Encrypter Repository
 
-Link:->
-```
-https://github.com/zecollokaris/Encrypter-Java
-```
+Link:-> ```https://github.com/zecollokaris/Encrypter-Java```
 
 3. From there you can access the Encrypter.
 
