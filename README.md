@@ -61,7 +61,7 @@ gradle run
 ```
 
 
-## Technologies Used
+### TECHNOLOGIES USED:
 
 - **[Java](https://java.com/en/download/) - source language.**
 
