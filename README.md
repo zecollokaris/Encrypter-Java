@@ -41,7 +41,24 @@ sdk install gradle
 
 1. You will need Internet connection.
 
-2.
+2. You need to get into the Encrypter Repository
+Link:->
+```
+https://github.com/zecollokaris/Encrypter-Java
+```
+
+3. From there you can access the Encrypter.
+
+4. **Clone** the project.
+
+5. **get into project folder** (cd into project).
+
+6. If you have all the **Pre-requisites** you can run the application.
+
+```
+gradle run
+```
+
 
 ## Technologies Used
 
