@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 public class Input{
 
-    public void GetUserInput (String[] args) {
+    public void DisplayWorking (String args[]) {
         for (String arg: args) {
             System.out.println("Working Project");
         }
     }
+
 
 }
