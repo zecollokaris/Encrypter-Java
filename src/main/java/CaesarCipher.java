@@ -23,6 +23,7 @@ public class CaesarCipher{
             String msg = in.nextLine();
 
 //            Add Number Input Options!
+            //Due to 26 being length of alphabet
             System.out.print("Enter Keys only (0-25): ");
 
 
