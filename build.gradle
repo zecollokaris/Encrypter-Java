@@ -3,7 +3,7 @@ apply plugin:'application'
 
 version '1.0-SNAPSHOT'
 archivesBaseName = 'Encrypter'
-mainClassName = 'App'
+mainClassName = 'CaesarCipher'
 
 sourceCompatibility = 1.8
 
