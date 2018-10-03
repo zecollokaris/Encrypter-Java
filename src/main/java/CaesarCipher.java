@@ -12,5 +12,16 @@ public class CaesarCipher{
 
 //        Loop For ENCRYPTION & DECRYPTION OPTIONS!
 
+//        IF USER CHOOSES OPTION 1:
+        if (choice == 1) {
+            System.out,println("Encryption");
+            in.nextLine();
+
+//            Section to Get user Input
+            System.out.println("Type In An Input In LOWER Case!");
+
+
+        }
+
     }
 }
