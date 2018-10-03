@@ -19,6 +19,12 @@ public class CaesarCipher{
 
 //            Section to Get user Input
             System.out.println("Type In An Input In LOWER Case!");
+            System.out.print("Enter Input");
+            String msg = in.nextLine();
+
+//            Add Number Input Options!
+            System.out.print("Enter Keys only (0-25): ");
+
 
 
         }
