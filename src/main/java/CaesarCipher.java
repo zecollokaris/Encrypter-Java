@@ -25,7 +25,18 @@ public class CaesarCipher{
 //            Add Number Input Options!
             //Due to 26 being length of alphabet
             System.out.print("Enter Keys only (0-25): ");
+            int key = in.nextInt();
 
+
+            String encrypMsg ="";
+
+            for (int i = 0; i < msg.length(); i++) {
+                if (msg.charAt(i) == 32){
+
+                } else if (msg.charAt(i) + key > 122){
+
+                }
+            }
 
 
         }
