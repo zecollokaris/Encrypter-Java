@@ -4,7 +4,7 @@ public class CaesarCipher{
 
     public static void main(String[] args) {
 //        Set in input options which user will choose inputs which will match functions set
-        System.out.print("1. Encryption\n2.Decryption\nChoose(1,2):");
+        System.out.print("1. Encryption\n2.Decryption\nChoose(1,2): ");
 
 //        Imported Scanner Which allow us to get user input using (Scanner)
         Scanner in = new Scanner(System.in);
@@ -13,8 +13,8 @@ public class CaesarCipher{
 //        Loop For ENCRYPTION & DECRYPTION OPTIONS!
 
 //        IF USER CHOOSES OPTION 1:
-        if (choice == 1) {
-            System.out,println("Encryption");
+        if (choice == 1){
+            System.out.println("Encryption");
             in.nextLine();
 
 //            Section to Get user Input
@@ -31,14 +31,30 @@ public class CaesarCipher{
             String encrypMsg ="";
 
             for (int i = 0; i < msg.length(); i++) {
-                if (msg.charAt(i) == 32){
+                if ((int)msg.charAt(i) == 32){
+                    encrypMsg += (char)32;
 
-                } else if (msg.charAt(i) + key > 122){
+                } else if ((int)msg.charAt(i) + key > 122){
+                    int temp = (msg.charAt(i) + key) - 122;
+                    encrypMsg += (char)(96 + temp);
+
+                } else if ((int)msg.charAt(i) + key > 90 && (int)msg.charAt(i) <96){
+                    int temp = (msg.charAt(i) + key) -90;
+                    encrypMsg += (char)(64+temp);
+
+                } else {
+                    encrypMsg += (char) ((int)msg.charAt(i) + key);
 
                 }
             }
 
 
+            System.out.println(encrypMsg);
+
+        } else if (choice == 2) {
+
+        } else{
+            System.out.println("Wrong Choice!");
         }
 
     }
