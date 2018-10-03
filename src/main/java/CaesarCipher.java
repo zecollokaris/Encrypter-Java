@@ -19,39 +19,41 @@ public class CaesarCipher{
 
 //            Section to Get user Input
             System.out.println("Type In An Input In LOWER Case!");
-            System.out.print("Enter Input");
+            System.out.print("Enter Input: ");
             String msg = in.nextLine();
 
 //            Add Number Input Options!
             //Due to 26 being length of alphabet
-            System.out.print("Enter Keys only (0-25): ");
+            System.out.print("Enter Key only (0-25): ");
             int key = in.nextInt();
 
 
-            String encrypMsg ="";
+            String encrypMsg = "";
 
             for (int i = 0; i < msg.length(); i++) {
+
                 if ((int)msg.charAt(i) == 32){
                     encrypMsg += (char)32;
 
                 } else if ((int)msg.charAt(i) + key > 122){
-                    int temp = (msg.charAt(i) + key) - 122;
-                    encrypMsg += (char)(96 + temp);
+                    int temp = ((int)msg.charAt(i) + key) - 122;
+                    encrypMsg += (char) (96 + temp);
 
                 } else if ((int)msg.charAt(i) + key > 90 && (int)msg.charAt(i) <96){
-                    int temp = (msg.charAt(i) + key) -90;
+                    int temp = ((int)msg.charAt(i) + key) - 90;
                     encrypMsg += (char)(64+temp);
 
                 } else {
-                    encrypMsg += (char) ((int)msg.charAt(i) + key);
+                    encrypMsg += (char)((int)msg.charAt(i) + key);
 
                 }
             }
-
-
             System.out.println(encrypMsg);
 
+
+
         } else if (choice == 2) {
+            System.out.println("Decryption");
 
         } else{
             System.out.println("Wrong Choice!");
