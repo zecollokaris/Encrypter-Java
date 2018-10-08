@@ -102,7 +102,6 @@ public class CaesarCipher {
 
 
 
-
         } else if (choice == 2) {
             System.out.println("Decryption");
             in.nextLine();
