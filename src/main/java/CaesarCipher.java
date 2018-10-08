@@ -4,7 +4,15 @@ public class CaesarCipher {
 
     public static void main(String[] args) {
 //        Set in input options which user will choose inputs which will match functions set
-        System.out.print("1. Encryption\n2.Decryption\nChoose(1,2): ");
+        System.out.println(" __ __ __   ______   __       ______   ______   ___ __ __   ______   __       \n" +
+                "/_//_//_/\\ /_____/\\ /_/\\     /_____/\\ /_____/\\ /__//_//_/\\ /_____/\\ /__/\\     \n" +
+                "\\:\\\\:\\\\:\\ \\\\::::_\\/_\\:\\ \\    \\:::__\\/ \\:::_ \\ \\\\::\\| \\| \\ \\\\::::_\\/_\\.:\\ \\    \n" +
+                " \\:\\\\:\\\\:\\ \\\\:\\/___/\\\\:\\ \\    \\:\\ \\  __\\:\\ \\ \\ \\\\:.      \\ \\\\:\\/___/\\\\::\\ \\   \n" +
+                "  \\:\\\\:\\\\:\\ \\\\::___\\/_\\:\\ \\____\\:\\ \\/_/\\\\:\\ \\ \\ \\\\:.\\-/\\  \\ \\\\::___\\/_\\__\\/_  \n" +
+                "   \\:\\\\:\\\\:\\ \\\\:\\____/\\\\:\\/___/\\\\:\\_\\ \\ \\\\:\\_\\ \\ \\\\. \\  \\  \\ \\\\:\\____/\\ /__/\\ \n" +
+                "    \\_______\\/ \\_____\\/ \\_____\\/ \\_____\\/ \\_____\\/ \\__\\/ \\__\\/ \\_____\\/ \\__\\/ \n" +
+                "                                                                              ");
+        System.out.print("1. ENCRYPT TEXT!\n2.DECRYPT TEST\nCHOOSE(1 or 2):");
 
 //        Imported Scanner Which allow us to get user input using (Scanner)
         Scanner in = new Scanner(System.in);
@@ -18,8 +26,13 @@ public class CaesarCipher {
             in.nextLine();
 
 //            Section to Get user Input
-            System.out.println("Type In An Input In LOWER Case!");
-            System.out.print("Enter Input: ");
+            System.out.println("          __   __  _                __ \n" +
+                    " ___ ____/ /__/ / (_)__  ___  __ __/ /_\n" +
+                    "/ _ `/ _  / _  / / / _ \\/ _ \\/ // / __/\n" +
+                    "\\_,_/\\_,_/\\_,_/ /_/_//_/ .__/\\_,_/\\__/ \n" +
+                    "                      /_/              ");
+
+            System.out.print("");
             String msg = in.nextLine();
 
 //            Add Number Input Options!
