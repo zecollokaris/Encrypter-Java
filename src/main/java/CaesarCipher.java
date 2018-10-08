@@ -12,8 +12,8 @@ public class CaesarCipher {
                 "   \\:\\\\:\\\\:\\ \\\\:\\____/\\\\:\\/___/\\\\:\\_\\ \\ \\\\:\\_\\ \\ \\\\. \\  \\  \\ \\\\:\\____/\\ /__/\\ \n" +
                 "    \\_______\\/ \\_____\\/ \\_____\\/ \\_____\\/ \\_____\\/ \\__\\/ \\__\\/ \\_____\\/ \\__\\/ \n" +
                 "                                                                              ");
-        System.out.println("1. ENCRYPT TEXT!\n2.DECRYPT TEST!\nCHOOSE(1 or 2):");
-        System.out.println("TYPE IN INPUT BELOW!");
+        System.out.println("1. ENCRYPT TEXT!\n2.DECRYPT TEST!\nCHOOSE(1 or 2): Then Press enter!");
+
 
 //        Imported Scanner Which allow us to get user input using (Scanner)
         Scanner in = new Scanner(System.in);
@@ -23,17 +23,20 @@ public class CaesarCipher {
 
 //        IF USER CHOOSES OPTION 1:
         if (choice == 1) {
-            System.out.println("Encryption");
+            System.out.println("                                  _            \n" +
+                    "                                 | |           \n" +
+                    "  ___ _ __   ___ _ __ _   _ _ __ | |_ ___ _ __ \n" +
+                    " / _ \\ '_ \\ / __| '__| | | | '_ \\| __/ _ \\ '__|\n" +
+                    "|  __/ | | | (__| |  | |_| | |_) | ||  __/ |   \n" +
+                    " \\___|_| |_|\\___|_|   \\__, | .__/ \\__\\___|_|   \n" +
+                    "                       __/ | |                 \n" +
+                    "                      |___/|_|                 ");
             in.nextLine();
 
 //            Section to Get user Input
-            System.out.println("          __   __  _                __ \n" +
-                    " ___ ____/ /__/ / (_)__  ___  __ __/ /_\n" +
-                    "/ _ `/ _  / _  / / / _ \\/ _ \\/ // / __/\n" +
-                    "\\_,_/\\_,_/\\_,_/ /_/_//_/ .__/\\_,_/\\__/ \n" +
-                    "                      /_/              ");
+            System.out.println("TYPE SENTENCE TO ENCRYPT! ");
 
-            System.out.print("");
+            System.out.print("Then Press enter!");
             String msg = in.nextLine();
 
 //            Add Number Input Options!
