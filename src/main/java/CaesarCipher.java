@@ -103,12 +103,23 @@ public class CaesarCipher {
 
 
         } else if (choice == 2) {
-            System.out.println("Decryption");
+            System.out.println("     _                                  _    _               \n" +
+                    "  __| |  ___   ___  _ __  _   _  _ __  | |_ (_)  ___   _ __  \n" +
+                    " / _` | / _ \\ / __|| '__|| | | || '_ \\ | __|| | / _ \\ | '_ \\ \n" +
+                    "| (_| ||  __/| (__ | |   | |_| || |_) || |_ | || (_) || | | |\n" +
+                    " \\__,_| \\___| \\___||_|    \\__, || .__/  \\__||_| \\___/ |_| |_|\n" +
+                    "                          |___/ |_|                          \n" +
+                    "                                                             \n" +
+                    "                                                             \n" +
+                    "                                                             ");
             in.nextLine();
 
 //            Print to prompt user info!
-            System.out.println("Message can be upper or Lower case Alphabet.");
-            System.out.println("Enter Previously Encrypted Text!");
+            System.out.println("ENTER PREVIOUSLY ENCRYPTED TEXT (TO DECRYPT!) ");
+            System.out.println("Then Press enter!");
+            System.out.println("    ");
+            System.out.println("    ");
+
 //            Take In user Input for decrepting text!
             String encypText = in.nextLine();
 
