@@ -57,7 +57,7 @@ public class CaesarCipher {
 
 //            Print to prompt user info!
             System.out.println("Message can be upper or Lower case Alphabet.");
-            System.out.print("Enter Previously Encrypted Text!");
+            System.out.println("Enter Previously Encrypted Text!");
 //            Take In user Input for decrepting text!
             String encypText = in.nextLine();
 
@@ -66,6 +66,25 @@ public class CaesarCipher {
             int dcyptkey = in.nextInt();
 
             String decrypMsg = "";
+
+            for (int i = 0; i < encypText.length(); i++){
+
+                if((int)encypText.charAt(i) == 32){
+                    decrypMsg += (char)32;
+                } else if (((int)encypText.charAt(i)- dcyptkey) < 97 && ((int)encypText.charAt(i) - dcyptkey) > 90) {
+
+                    int temp = ((int)encypText.charAt(i) - dcyptkey) + 26;
+                    decrypMsg += (char)temp;
+                } else if ((encypText.charAt(i) - dcyptkey) < 65) {
+
+                    int temp = ((int)encypText.charAt(i) - dcyptkey) + 26;
+                    decrypMsg += (char) temp;
+                } else {
+                    decrypMsg += (char)((int)encypText.charAt(i) - dcyptkey);
+                }
+
+            }
+            System.out.println(decrypMsg);
 
 
 
