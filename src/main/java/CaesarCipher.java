@@ -13,6 +13,7 @@ public class CaesarCipher {
                 "    \\_______\\/ \\_____\\/ \\_____\\/ \\_____\\/ \\_____\\/ \\__\\/ \\__\\/ \\_____\\/ \\__\\/ \n" +
                 "                                                                              ");
         System.out.println("1. ENCRYPT TEXT!\n2.DECRYPT TEST!\nCHOOSE(1 or 2): Then Press enter!");
+        System.out.println("    ");
 
 
 //        Imported Scanner Which allow us to get user input using (Scanner)
@@ -103,18 +104,20 @@ public class CaesarCipher {
 
 
         } else if (choice == 2) {
-            System.out.println("     _                                  _    _               \n" +
-                    "  __| |  ___   ___  _ __  _   _  _ __  | |_ (_)  ___   _ __  \n" +
-                    " / _` | / _ \\ / __|| '__|| | | || '_ \\ | __|| | / _ \\ | '_ \\ \n" +
-                    "| (_| ||  __/| (__ | |   | |_| || |_) || |_ | || (_) || | | |\n" +
-                    " \\__,_| \\___| \\___||_|    \\__, || .__/  \\__||_| \\___/ |_| |_|\n" +
-                    "                          |___/ |_|                          \n" +
-                    "                                                             \n" +
-                    "                                                             \n" +
-                    "                                                             ");
+            System.out.println("    ");
+            System.out.println("    ");
+            System.out.println("      _                                  _    _               \n" +
+                    "   __| |  ___   ___  _ __  _   _  _ __  | |_ (_)  ___   _ __  \n" +
+                    "  / _` | / _ \\ / __|| '__|| | | || '_ \\ | __|| | / _ \\ | '_ \\ \n" +
+                    " | (_| ||  __/| (__ | |   | |_| || |_) || |_ | || (_) || | | |\n" +
+                    "  \\__,_| \\___| \\___||_|    \\__, || .__/  \\__||_| \\___/ |_| |_|\n" +
+                    "                           |___/ |_|                          ");
             in.nextLine();
 
 //            Print to prompt user info!
+
+            System.out.println("    ");
+            System.out.println("    ");
             System.out.println("ENTER PREVIOUSLY ENCRYPTED TEXT (TO DECRYPT!) ");
             System.out.println("Then Press enter!");
             System.out.println("    ");
@@ -124,7 +127,12 @@ public class CaesarCipher {
             String encypText = in.nextLine();
 
 //            Take In User Input for number!
-            System.out.println("Enter Decryption Key (0-25)");
+            System.out.println("    ");
+            System.out.println("    ");
+            System.out.println("ENTER DECRYPTION NUMBER KEY!  (0-25) ONLY!: ");
+            System.out.println("Then Press enter!");
+            System.out.println("    ");
+            System.out.println("    ");
             int dcyptkey = in.nextInt();
 
             String decrypMsg = "";
@@ -146,12 +154,41 @@ public class CaesarCipher {
                 }
 
             }
+            System.out.println("    ");
+            System.out.println("  ............ DECRYPTING.....  ");
+            System.out.println("    ");
+            System.out.println("    ");
+            System.out.println("    ");
+            System.out.println("▓█████▄ ▓█████  ▄████▄   ██▀███ ▓██   ██▓ ██▓███  ▄▄▄█████▓▓█████ ▓█████▄ \n" +
+                    "▒██▀ ██▌▓█   ▀ ▒██▀ ▀█  ▓██ ▒ ██▒▒██  ██▒▓██░  ██▒▓  ██▒ ▓▒▓█   ▀ ▒██▀ ██▌\n" +
+                    "░██   █▌▒███   ▒▓█    ▄ ▓██ ░▄█ ▒ ▒██ ██░▓██░ ██▓▒▒ ▓██░ ▒░▒███   ░██   █▌\n" +
+                    "░▓█▄   ▌▒▓█  ▄ ▒▓▓▄ ▄██▒▒██▀▀█▄   ░ ▐██▓░▒██▄█▓▒ ▒░ ▓██▓ ░ ▒▓█  ▄ ░▓█▄   ▌\n" +
+                    "░▒████▓ ░▒████▒▒ ▓███▀ ░░██▓ ▒██▒ ░ ██▒▓░▒██▒ ░  ░  ▒██▒ ░ ░▒████▒░▒████▓ \n" +
+                    " ▒▒▓  ▒ ░░ ▒░ ░░ ░▒ ▒  ░░ ▒▓ ░▒▓░  ██▒▒▒ ▒▓▒░ ░  ░  ▒ ░░   ░░ ▒░ ░ ▒▒▓  ▒ \n" +
+                    " ░ ▒  ▒  ░ ░  ░  ░  ▒     ░▒ ░ ▒░▓██ ░▒░ ░▒ ░         ░     ░ ░  ░ ░ ▒  ▒ \n" +
+                    " ░ ░  ░    ░   ░          ░░   ░ ▒ ▒ ░░  ░░         ░         ░    ░ ░  ░ \n" +
+                    "   ░       ░  ░░ ░         ░     ░ ░                          ░  ░   ░    \n" +
+                    " ░             ░                 ░ ░                               ░      \n" +
+                    "                                                                          ");
+
+
+            System.out.println("    ");
+            System.out.println("YOUR TEXT HAS BEEN DECRYPTED ");
+            System.out.println("    ");
+            System.out.println("    ");
+            System.out.print(".....DECRYPTED TEXT! ==>       ");
             System.out.println(decrypMsg);
+            System.out.println("    ");
 
 
 
         } else {
-            System.out.println("Wrong Choice!");
+            System.out.println("    ");
+            System.out.println("    ");
+            System.out.println("**WRONG CHOICE!** ");
+            System.out.println(" RETRY! ");
+            System.out.println("    ");
+            System.out.println("    ");
         }
 
     }
