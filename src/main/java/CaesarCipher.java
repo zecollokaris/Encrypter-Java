@@ -72,9 +72,7 @@ public class CaesarCipher {
 
                 }
             }
-            System.out.println("REMEMBER TO KEEP YOUR ENCRYPTION KEY SAFE");
-            System.out.println("YOU WILL NEED IT TO:");
-            System.out.println("DECRYPT! SOON");
+            System.out.println("Remember to keep your encryption key safe! ");
             System.out.println("    ");
             System.out.println("    ");
             System.out.println(encrypMsg);
