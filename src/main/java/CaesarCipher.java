@@ -72,12 +72,35 @@ public class CaesarCipher {
 
                 }
             }
-            System.out.println("Remember to keep your encryption key safe! ");
+            System.out.println("    ");
+            System.out.println("REMEMBER TO KEEP YOUR ENCRYPTION KEY SAFE FOR DECRYPTING SOON!");
+            System.out.println("    ");
+
+            System.out.println("  ............ ENCRYPTING..  ");
             System.out.println("    ");
             System.out.println("    ");
-            System.out.println(encrypMsg);
+            System.out.println("▓█████  ███▄    █  ▄████▄   ██▀███ ▓██   ██▓ ██▓███  ▄▄▄█████▓▓█████ ▓█████▄    \n" +
+                    "▓█   ▀  ██ ▀█   █ ▒██▀ ▀█  ▓██ ▒ ██▒▒██  ██▒▓██░  ██▒▓  ██▒ ▓▒▓█   ▀ ▒██▀ ██▌   \n" +
+                    "▒███   ▓██  ▀█ ██▒▒▓█    ▄ ▓██ ░▄█ ▒ ▒██ ██░▓██░ ██▓▒▒ ▓██░ ▒░▒███   ░██   █▌   \n" +
+                    "▒▓█  ▄ ▓██▒  ▐▌██▒▒▓▓▄ ▄██▒▒██▀▀█▄   ░ ▐██▓░▒██▄█▓▒ ▒░ ▓██▓ ░ ▒▓█  ▄ ░▓█▄   ▌   \n" +
+                    "░▒████▒▒██░   ▓██░▒ ▓███▀ ░░██▓ ▒██▒ ░ ██▒▓░▒██▒ ░  ░  ▒██▒ ░ ░▒████▒░▒████▓    \n" +
+                    "░░ ▒░ ░░ ▒░   ▒ ▒ ░ ░▒ ▒  ░░ ▒▓ ░▒▓░  ██▒▒▒ ▒▓▒░ ░  ░  ▒ ░░   ░░ ▒░ ░ ▒▒▓  ▒    \n" +
+                    " ░ ░  ░░ ░░   ░ ▒░  ░  ▒     ░▒ ░ ▒░▓██ ░▒░ ░▒ ░         ░     ░ ░  ░ ░ ▒  ▒    \n" +
+                    "   ░      ░   ░ ░ ░          ░░   ░ ▒ ▒ ░░  ░░         ░         ░    ░ ░  ░    \n" +
+                    "   ░  ░         ░ ░ ░         ░     ░ ░                          ░  ░   ░       \n" +
+                    "                  ░                 ░ ░                               ░         ");
+
             System.out.println("    ");
             System.out.println("    ");
+            System.out.println("YOUR TEXT HAS BEEN ENCRYPTED ");
+            System.out.println("    ");
+            System.out.println("    ");
+            System.out.print(".....ENCRYPTED TEXT! ==>       ");
+            System.out.print(encrypMsg);
+            System.out.println("    ");
+            System.out.println("    ");
+
+
 
 
         } else if (choice == 2) {
