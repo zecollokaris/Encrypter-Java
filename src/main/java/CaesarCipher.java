@@ -36,12 +36,19 @@ public class CaesarCipher {
 //            Section to Get user Input
             System.out.println("TYPE SENTENCE TO ENCRYPT! ");
 
-            System.out.print("Then Press enter!");
+            System.out.println("Then Press enter!");
+            System.out.println("    ");
+            System.out.println("    ");
             String msg = in.nextLine();
 
 //            Add Number Input Options!
             //Due to 26 being length of alphabet
-            System.out.print("Enter Key only (0-25): ");
+            System.out.println("    ");
+            System.out.println("    ");
+            System.out.println("ENTER ENCRYPTION NUMBER KEY!  (0-25) ONLY!: ");
+            System.out.println("Then Press enter!");
+            System.out.println("    ");
+            System.out.println("    ");
             int key = in.nextInt();
 
 
@@ -65,7 +72,14 @@ public class CaesarCipher {
 
                 }
             }
+            System.out.println("REMEMBER TO KEEP YOUR ENCRYPTION KEY SAFE");
+            System.out.println("YOU WILL NEED IT TO:");
+            System.out.println("DECRYPT! SOON");
+            System.out.println("    ");
+            System.out.println("    ");
             System.out.println(encrypMsg);
+            System.out.println("    ");
+            System.out.println("    ");
 
 
         } else if (choice == 2) {
