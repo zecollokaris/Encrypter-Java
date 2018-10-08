@@ -4,29 +4,28 @@ public class CaesarCipher {
 
     public static void main(String[] args) {
 //        Set in input options which user will choose inputs which will match functions set
-        Scanner  scan = new Scanner(System.in);
-        System.out.println("1. Encryption\n2.Decryption\nChoose(1,2): ");
+        System.out.print("1. Encryption\n2.Decryption\nChoose(1,2): ");
 
 //        Imported Scanner Which allow us to get user input using (Scanner)
-
-        int choice = scan.nextInt();
+        Scanner in = new Scanner(System.in);
+        int choice = in.nextInt();
 
 //        Loop For ENCRYPTION & DECRYPTION OPTIONS!
 
 //        IF USER CHOOSES OPTION 1:
         if (choice == 1) {
             System.out.println("Encryption");
-            scan.nextLine();
+            in.nextLine();
 
 //            Section to Get user Input
             System.out.println("Type In An Input In LOWER Case!");
             System.out.print("Enter Input: ");
-            String msg = scan.nextLine();
+            String msg = in.nextLine();
 
 //            Add Number Input Options!
             //Due to 26 being length of alphabet
             System.out.print("Enter Key only (0-25): ");
-            int key = scan.nextInt();
+            int key = in.nextInt();
 
 
             String encrypMsg = "";
@@ -54,6 +53,21 @@ public class CaesarCipher {
 
         } else if (choice == 2) {
             System.out.println("Decryption");
+            in.nextLine();
+
+//            Print to prompt user info!
+            System.out.println("Message can be upper or Lower case Alphabet.");
+            System.out.print("Enter Previously Encrypted Text!");
+//            Take In user Input for decrepting text!
+            String encypText = in.nextLine();
+
+//            Take In User Input for number!
+            System.out.println("Enter Decryption Key (0-25)");
+            int dcyptkey = in.nextInt();
+
+            String decrypMsg = "";
+
+
 
         } else {
             System.out.println("Wrong Choice!");
