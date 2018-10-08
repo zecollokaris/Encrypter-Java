@@ -12,7 +12,8 @@ public class CaesarCipher {
                 "   \\:\\\\:\\\\:\\ \\\\:\\____/\\\\:\\/___/\\\\:\\_\\ \\ \\\\:\\_\\ \\ \\\\. \\  \\  \\ \\\\:\\____/\\ /__/\\ \n" +
                 "    \\_______\\/ \\_____\\/ \\_____\\/ \\_____\\/ \\_____\\/ \\__\\/ \\__\\/ \\_____\\/ \\__\\/ \n" +
                 "                                                                              ");
-        System.out.print("1. ENCRYPT TEXT!\n2.DECRYPT TEST\nCHOOSE(1 or 2):");
+        System.out.println("1. ENCRYPT TEXT!\n2.DECRYPT TEST!\nCHOOSE(1 or 2):");
+        System.out.println("CHOOSE(1 or 2):");
 
 //        Imported Scanner Which allow us to get user input using (Scanner)
         Scanner in = new Scanner(System.in);
