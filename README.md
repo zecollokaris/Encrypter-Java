@@ -1,4 +1,4 @@
-#                                                   ENCRYPTER
+#                                                   ENCRYPTER :lock_with_ink_pen:
 
 # DISPLAY
 
@@ -10,9 +10,9 @@
 
 ## DESCRIPTION
 
-An **Encrypter** is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.  For example, with a shift of 1, A would be replaced by B, B would become C, and so on. For more information on it, you can check this out ```https://en.wikipedia.org/wiki/Caesar_cipher```.
+An **Encrypter :lock_with_ink_pen:** is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.  For example, with a shift of 1, A would be replaced by B, B would become C, and so on. For more information on it, you can check this out ```https://en.wikipedia.org/wiki/Caesar_cipher```.
 
-## THE PROBLEM
+## THE PROBLEM :lock_with_ink_pen:
 
 Implement: both encoding, and decoding. The key is an integer from 1 to 25. This application rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC".
 
